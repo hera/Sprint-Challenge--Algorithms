@@ -7,12 +7,13 @@ a)  This is (n^3) (n * n * n) Because the number of operations
     for example 5*5*5 = 125 vs 10*10*10 = 1000
 
 
-b)  This is O(n^2).
-    For elements in range the program will go through the elements. There's a loop inside the loop.
+b)  This is O(log n).
+    The inner loop will make less operations than the outer one, because j is multiplied by 2
+    
 
 
-c)  It's O(1) because the number of operations that the function does
-    is always the same no matter how much input it receives
+c)  It's O(n) because n is decremented with every recursive call. So the number of operations depend
+    on n
 
 ## Exercise II
 
